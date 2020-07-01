@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row" style="margin-bottom: 50px">
+    <h1>Reservierungen</h1>
+    <button mat-raised-button color="primary" (click)="previousWeek()">Zurück</button>
+    <div style="padding: 20px">KW {{selectedWeek}}</div>
+    <button mat-raised-button color="primary" (click)="nextWeek()">Weiter</button>
+  </div>
+
+  <table>
+    <thead>
+      <th><i>ZEIT</i></th>
+      <th>Montag</th>
+      <th>Dienstag</th>
+      <th>Mittwoch</th>
+      <th>Donnerstag</th>
+      <th>Freitag</th>
+      <th>Samstag</th>
+      <th>Sonntag</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let entry of entries">
+        <td>{{entry.time}}</td>
+        <td *ngFor="let booking of entry.entryIds" (click)="addBooking(booking)">
+          {{getName(booking)}}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

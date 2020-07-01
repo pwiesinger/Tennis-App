@@ -1,0 +1,14 @@
+D:\Systemordner\Dokumente\Schule\Tennis\TennisBackend\TennisBackendDb\bin\Debug\netcoreapp3.1\TennisBackendDb.deps.json
+D:\Systemordner\Dokumente\Schule\Tennis\TennisBackend\TennisBackendDb\bin\Debug\netcoreapp3.1\TennisBackendDb.dll
+D:\Systemordner\Dokumente\Schule\Tennis\TennisBackend\TennisBackendDb\obj\Debug\netcoreapp3.1\TennisBackendDb.csprojAssemblyReference.cache
+D:\Systemordner\Dokumente\Schule\Tennis\TennisBackend\TennisBackendDb\obj\Debug\netcoreapp3.1\TennisBackendDb.AssemblyInfoInputs.cache
+D:\Systemordner\Dokumente\Schule\Tennis\TennisBackend\TennisBackendDb\obj\Debug\netcoreapp3.1\TennisBackendDb.AssemblyInfo.cs
+D:\Systemordner\Dokumente\Schule\Tennis\TennisBackend\TennisBackendDb\bin\Debug\netcoreapp3.1\TennisBackendDb.runtimeconfig.json
+D:\Systemordner\Dokumente\Schule\Tennis\TennisBackend\TennisBackendDb\bin\Debug\netcoreapp3.1\TennisBackendDb.runtimeconfig.dev.json
+D:\Systemordner\Dokumente\Schule\Tennis\TennisBackend\TennisBackendDb\obj\Debug\netcoreapp3.1\TennisBackendDb.genruntimeconfig.cache
+D:\Systemordner\Dokumente\Schule\Tennis\TennisBackend\TennisBackendDb\bin\Debug\netcoreapp3.1\TennisBackendDb.pdb
+D:\Systemordner\Dokumente\Schule\Tennis\TennisBackend\TennisBackendDb\obj\Debug\netcoreapp3.1\TennisBackendDb.dll
+D:\Systemordner\Dokumente\Schule\Tennis\TennisBackend\TennisBackendDb\obj\Debug\netcoreapp3.1\TennisBackendDb.pdb
+D:\Systemordner\Dokumente\Schule\Tennis\TennisBackend\TennisBackendDb\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Systemordner\Dokumente\Schule\Tennis\TennisBackend\TennisBackendDb\obj\Debug\netcoreapp3.1\TennisBackendDb.csproj.CoreCompileInputs.cache
+D:\Systemordner\Dokumente\Schule\Tennis\TennisBackend\TennisBackendDb\obj\Debug\netcoreapp3.1\EFCorePluralizer.cs

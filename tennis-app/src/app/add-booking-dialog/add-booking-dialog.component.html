@@ -1,0 +1,28 @@
+<h1 mat-dialog-title>Eine neue Reservierung erstellen.</h1>
+<div mat-dialog-content>
+  <select label="Person" [(ngModel)]="selectedPerson">
+    <option *ngFor="let person of persons" value={{person.id}}>{{person.lastname}} {{person.firstname}}</option>
+  </select>
+  <br/>
+  <select label="Uhrzeit" [(ngModel)]="selectedTime">
+    <option *ngFor="let time of times" value={{time}}>{{time}}</option>
+  </select>
+  <br/>
+  <select label="Wochentag" [(ngModel)]="selectedDayOfWeek">
+    <option *ngFor="let day of daysOfWeek; let idx = index" value={{idx}}>{{day}}</option>
+  </select>
+  <br/>
+  <select label="Woche" [(ngModel)]="selectedWeeks">
+    <option *ngFor="let week of weeks; let idx = index" value={{idx}}>{{week}}</option>
+  </select>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Abbrechen</button>
+  <div *ngIf="showIsUpdate">
+    <button mat-button (click)="delete()">Löschen</button>
+    <button mat-button (click)="update()">Aktualisieren</button>
+  </div>
+  <div *ngIf="showIsUpdate === false">
+    <button mat-button (click)="create()">Erstellen</button>
+  </div>
+</div>
